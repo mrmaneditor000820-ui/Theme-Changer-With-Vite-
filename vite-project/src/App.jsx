@@ -5,6 +5,8 @@ const App = () => {
     <>
     <h1>ABDUL ---------- REHMAN</h1>
     <div>App</div>
+    console.log(me hon pagal );
+    
     </>
   )
 }
