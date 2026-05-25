@@ -1,8 +1,12 @@
-import React from 'react'
-const 
+import React, { createContext } from 'react'
+const ThemeContext = createContext()
+
 function usecontext() {
+  const [theme, settheme] = useState("light")
   return (
-    <div>usecontext</div>
+
+    <div></div>
+
   )
 }
 
