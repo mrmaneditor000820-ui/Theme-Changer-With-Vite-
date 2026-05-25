@@ -4,8 +4,12 @@ const ThemeContext = createContext()
 function usecontext() {
   const [theme, settheme] = useState("light")
   return (
-
-    <div></div>
+        
+    <div>
+        <ThemeContext.Provider>
+            
+        </ThemeContext.Provider>
+    </div>
 
   )
 }
