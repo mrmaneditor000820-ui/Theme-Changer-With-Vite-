@@ -1,0 +1,10 @@
+#main{
+  border: 10px solid blue;
+  border-radius: 50px;
+}
+#main2{
+  border: 2px solid blue;
+  padding: 25px ;
+  margin: 5px 10px;
+  border-radius: 50px;
+}
