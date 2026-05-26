@@ -1,14 +1,23 @@
-import React from 'react'
-import Themeprovider from './Themeprovider'
+import React, { useContext } from 'react'
+import { ThemeContext } from './Themeprovider'
+
 
 const App = () => {
+
+  const {theme,toggleTheme} = useContext(ThemeContext)
+  console.log("theme=>", theme,toggleTheme);
+  
+
   return (
-    <>
+    <div style={{
+      backgroundColor:theme === "dark" ? "black" : "white",
+      color: theme === "light" ? "black" : "white",
+      height:"100vh"
+    }}>
     <h1>ABDUL ---------- REHMAN</h1>
-    <div>App</div>
-    console.log(me hon pagal );
-    <Themeprovider/>
-    </>
+    <button onClick={toggleTheme}>change theme{theme}</button>
+    </div>
+  
   )
 }
 
