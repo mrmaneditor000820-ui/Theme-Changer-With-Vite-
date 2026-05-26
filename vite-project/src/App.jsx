@@ -12,16 +12,20 @@ const App = () => {
   return (
     <div id='main'>
       <div id='main2'>
-        <h5>NAVBAR</h5>
+        <h2>NAVBAR</h2>
       </div>
-    
+
     <div style={{
       backgroundColor:theme === "dark" ? "black" : "white",
       color: theme === "light" ? "black" : "white",
-      height:"780px",margin:"0px",padding:"0px",
-      border:"2px solid blue"
+      height:"300px",margin:"100px auto",padding:"0px",
+      border:"2px solid blue",borderRadius:"20px",
+      width:"700px",textAlign:"center"
+
     }}>
-    <h1>ABDUL ---------- REHMAN</h1>
+    <h1 style={{fontSize:"50px",fontFamily:""
+
+    }}>ABDUL ---------- REHMAN</h1>
     <button onClick={toggleTheme}>change theme{theme}</button>
     </div>
     </div>
