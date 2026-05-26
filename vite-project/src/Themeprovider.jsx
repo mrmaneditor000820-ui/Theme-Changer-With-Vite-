@@ -6,9 +6,9 @@ function Themeprovider({children}) {
   
   const toggleTheme = () => {
     if(theme=== "light"){
-      settheme("dark")
+      settheme("Dark")
     }
-    if(theme === "dark"){
+    if(theme === "Dark"){
       settheme("light")
     }
   };

@@ -10,14 +10,14 @@ const App = () => {
   
 
   return (
-    <div id='main' style={{  backgroundColor:theme === "dark" ? "black" : "white",
+    <div id='main' style={{  backgroundColor:theme === "Dark" ? "black" : "white",
       color: theme === "light" ? "black" : "white",}}>
       <div id='main2'>
         <h2>NAVBAR</h2>
       </div>
 
     <div style={{
-      backgroundColor:theme === "dark" ? "black" : "white",
+      backgroundColor:theme === "Dark" ? "black" : "white",
       color: theme === "light" ? "black" : "white",
       height:"300px",margin:"100px auto",padding:"0px",
       border:"2px solid blue",borderRadius:"20px",
@@ -27,7 +27,7 @@ const App = () => {
     <h1 style={{fontSize:"50px",fontFamily:""
 
     }}>ABDUL ---------- REHMAN</h1>
-    <button onClick={toggleTheme}>change theme{theme}</button>
+    <button onClick={toggleTheme}>{theme }MODE</button>
     </div>
     <div className='footer'>FOOTER</div>
     </div>
