@@ -1,7 +1,7 @@
 #main{
   border: 10px solid blue;
   border-radius: 50px;
-  height: 850px;
+  height: 768px;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
@@ -28,8 +28,7 @@ button:hover{
 }
 .footer{
   border: 5px solid blue;
-  height: 50px;
+  height: 13x;
   border-radius: 50px ;
-  margin-top: 150px;
   padding: 20px;
 }
